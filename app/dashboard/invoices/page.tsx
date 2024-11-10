@@ -1,16 +1,7 @@
-import { memo } from "react";
-import type { FC, ReactNode } from "react";
+import React from 'react'
 
-interface IInvoicesProps {
-  children?: ReactNode;
-}
-
-const Invoices: FC<IInvoicesProps> = () => {
+export default function Invoices() {
   return (
-    <div>
-      Invoices
-    </div>
-  );
-};
-
-export default memo(Invoices);
+    <div>Invoices</div>
+  )
+}
